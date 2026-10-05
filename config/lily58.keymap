@@ -63,11 +63,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans          &trans        &trans     &trans          &trans                          &trans           &trans        &trans        &trans        &trans        &trans
-&trans  &kp HOME        &kp UP_ARROW  &kp END    &msc SCRL_UP    &trans                          &kp KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &trans
-&trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &msc SCRL_DOWN  &trans                          &trans           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &trans
-&trans  &trans          &trans        &trans     &trans          &trans  &trans       &trans     &trans           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &trans
-                                      &trans     &trans          &trans  &kp SPACE    &kp ENTER  &trans           &trans        &trans
+&trans  &trans          &kp C_VOLUME_UP    &trans     &trans          &trans                          &trans  &trans         &trans  &trans  &trans            &kp PRINTSCREEN
+&trans  &none           &kp UP_ARROW       &none      &msc SCRL_UP    &trans                          &trans  &kp PAGE_UP    &trans  &trans  &kp K_PLAY_PAUSE  &trans
+&trans  &kp LEFT_ARROW  &kp DOWN           &kp RIGHT  &msc SCRL_DOWN  &trans                          &trans  &kp PAGE_DOWN  &trans  &trans  &trans            &trans
+&trans  &trans          &kp C_VOLUME_DOWN  &trans     &trans          &trans  &kp HOME     &kp END    &trans  &kp K_MUTE     &trans  &trans  &trans            &trans
+                                           &trans     &trans          &trans  &kp SPACE    &kp ENTER  &trans  &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
